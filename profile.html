@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile Page</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<style></style>
+<body>
+    <div class="kkkk">
+        <nav>
+        <p class="Logo"></p>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+
+            </ul>
+
+            <img src="so.jpg" class="user-pic" onclick="toggleMenu()">
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    
+                    <header>
+                        <h1>My Profile</h1>
+                    </header>
+                    <section class="profile-picture">
+                        <center> <img  src="so.jpg" ></center>
+                                  <h1>chila</h1>
+                    </section>
+                    <section id="profile-info">
+                        <h3>Personal information :</h3>
+                        <table>
+                       <tr> 
+                            <td style=" padding-left: 15px;"><h4>First Name: </h4></td>
+                            <td style=" padding-left: 7px;"><h5> chila</h5></td>
+                            
+                       </tr>
+                        <tr>
+                            <td style=" padding-left: 20px;"><h4> Last Name:</h4></td>
+                            <td style=" padding-left: 6px;"><h5>NOUSASS</h5></td>
+                          </tr>
+                        <tr>
+                           <td style=" padding-left: 33px;"><h4>E-mail:</h4></td>
+                            <td><h5>Chilanousass@gmail.com </h5></td>
+                        </tr>
+                    </table>
+                    </section>
+                   <br>
+               <hr /> 
+            
+                    <a href="prof.html" class="sub-menu-link">
+                        <img src="logot.jpg">
+                        <p>Log out</p>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            </nav>
+    </div>
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+          function toggleMenu(){
+          subMenu.classList.toggle("open-menu");}
+
+       </script>
+
+</body>
+</html>
